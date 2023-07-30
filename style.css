@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar .active{
+    color: rgba(247, 247, 78, 0.829)!important;
+}
+.navbar li a{
+    color: white !important;
+}
+.navbar  li a:hover {
+    color: rgba(247, 247, 78, 0.829)!important;
+    border-bottom: 2px solid rgba(247, 247, 78, 0.829) ;
+}
+#atttemp{
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 2;
+    
+
+    
+}
+.sec-1 .row-one{
+    
+    position: relative;
+    top: 60px;
+    
+}
+.chnageColor{
+     background-attachment: fixed;
+     background-color: black;
+     overflow: hidden;
+     width: 100%;
+
+}
+.chnageColor ul li {
+    color: black;
+}
+@media (max-width:768px){
+    .sec-1{
+        height: 50rem!important;
+    }
+
+    .shadows{
+        margin-bottom: 10px!important;
+        border-radius: 10px ;
+    }
+    .navbar  li a:hover {
+        color: rgba(247, 247, 78, 0.829)!important;
+        border-bottom: 2px solid rgba(247, 247, 78, 0.829) ;
+    }
+    .navbar li a{
+        color: white !important;
+    }
+    #navbarNav{
+     background-color: black!important;
+     z-index: -10;
+     border-radius: 05px;
+     transition: .9s ease;
+     text-align: center;
+     overflow: hidden;
+     
+    }
+}
+
+.sec-1{
+    background-image: url(./img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* opacity: 4; */
+}
+.h-100vh{
+    height: 100vh;
+}
+.hell {
+   /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 700px; */
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.divs-set{
+    border: 1px solid rgb(169, 166, 166);
+    padding: 50px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+
+}
+.sec-4 i{
+    font-size: 40px;
+    color: black;
+    background-color:rgba(247, 247, 78, 0.829); 
+    padding: 10px;
+}
+.divs-set:hover{
+
+    box-shadow: 0.5px 0px 5px 0px;
+    transition: .4s ease-in-out;
+    transform: translateY(-05%);
+
+}
+.sec-5{
+    background-image: url(./img/cta-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* width: 100%; */
+    height: 400px;
+}
+.sec-5 .row{
+
+    height: 400px;
+    color: white;
+}
+.sec-5 .btn{
+    background: transparent;
+    border: 3px solid rgb(229, 222, 222);
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
+    
+}
+.sec-5 .btn:hover{
+    background:rgba(247, 247, 78, 0.829); 
+    transition: .6s ease-in-out;
+    color: white;
+}
+
+.sec-1 i{
+    color: rgba(247, 247, 78, 0.829);
+    font-size: 30px;
+    padding-top: 1.5rem;
+}
+.sec-1 .shadows:hover{
+box-shadow: 1px 1px 10px ;
+scale: 1.1;
+transition: .6s ease-in-out;
+
+} 
+
+@keyframes slide {
+    from {
+    transform: translateX(0%);
+    }
+    to {
+    transform: translateX(-500%);
+    }
+    
+}
+
+.logo-slide{
+    /* white-space: nowrap; */
+
+    animation: 7s slide infinite linear;
+}
+.sec-3 i{
+    font-size: 35px;
+}
+.sec-6{
+    /* width: 100%; */
+    height: 10rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+padding-top: 80px;
+}
